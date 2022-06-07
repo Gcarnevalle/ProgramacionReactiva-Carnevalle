@@ -1,0 +1,50 @@
+table {
+    width: 100%;
+  }
+  th{
+    width: 25%;
+  }
+  .pointer{
+    cursor: pointer;
+  }
+  .mat-form-field {
+    font-size: 14px;
+    width: 100%;
+  }
+  .toolbar-container{
+    background-color: transparent;
+    border-radius: 100px;
+  }
+  .boton{
+      margin-left: 20%;
+    background-color:  rgb(83, 197, 154);
+}
+.barra-filtrar{
+ 
+  background-color:  rgb(83, 197, 154);;
+  border: 2px solid rgb(12, 75, 59) ;
+  border-radius: 30px;
+
+}
+.bg-div{
+  background-color:rgba(175, 64, 197, 0.24);
+  border-radius: 30px;
+  
+}
+.mat-paginator{
+    background-color: transparent;
+
+}
+
+.text-white{
+    text-align: center;
+    
+}
+.tabla{
+    color: rgb(155, 20, 196);
+  background-color: transparent;
+}
+.toolbar-container{
+    background-color: transparent;
+    border-radius: 100px;
+  }

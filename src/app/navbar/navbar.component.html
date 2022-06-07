@@ -1,0 +1,14 @@
+<div class="bg-div">
+    <mat-toolbar class="toolbar-container">
+      <span appFuentes class="boton">1PF</span>
+      <span class="example-spacer"></span>
+      <button appFuentes class="boton" mat-button *ngFor="let item of menu" [routerLink]="item.redirect">{{item.nombre}} </button>  
+      
+      <span class="example-spacer"></span>
+      <button mat-icon-button routerLink="/login">
+        <mat-icon appFuentes class="boton">logout</mat-icon>
+      </button>
+    </mat-toolbar>
+  </div>
+  
+  
